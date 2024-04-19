@@ -16,7 +16,7 @@ public class LoginActivity extends AppCompatActivity {
 
     EditText inputUsername, inputPassword;
     Button btn;
-    TextView reg;
+    TextView reg, fpass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +27,7 @@ public class LoginActivity extends AppCompatActivity {
         inputPassword = findViewById(R.id.loginPassword);
         btn = findViewById(R.id.loginButton);
         reg = findViewById(R.id.register);
+        fpass = findViewById(R.id.forgot);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +52,13 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         });
+        fpass.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(LoginActivity.this,ForgotPasswordActivity.class));
+            }
+        });
+
         reg.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){

@@ -2,7 +2,7 @@
     <string name="app_name">HealthCareApp</string>
     <string name="famPhy">PHYSICIAN</string>
     <string name="diet">DIETICIAN</string>
-    <string name="dent">DENTIST</string>
-    <string name="surgeon">SURGEON</string>
+    <string name="pedia">PEDIATRICIAN</string>
+    <string name="endo">ENDOCROLOGIST</string>
     <string name="cardio">CARDIOLOGIST</string>
 </resources>

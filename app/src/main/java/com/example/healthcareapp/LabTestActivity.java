@@ -19,24 +19,30 @@ public class LabTestActivity extends AppCompatActivity {
 
     private String[][]  packages =
             {
-                    {"Full Body CheckUp", "", "", "", "999"},
-                    {"Blood Glucose Fasting", "", "", "", "299"},
-                    {"COVID-19 Antibody - IgG", "", "", "", "99"},
-                    {"Thyroid Check", "", "", "", "599"},
-                    {"Immunity Check", "", "", "", "799"},
+                    {"Full Body CheckUp", "", "", "", "3,500"},
+                    {"Complete Blood Count (CBC)    ", "", "", "", "800"},
+                    {"COVID-19 Antibody - IgG", "", "", "", "900"},
+                    {"Thyroid Check", "", "", "", "2,399"},
+                    {"Immunity Check", "", "", "", "2,200"},
             };
 
     private String[] package_details =
             {
                     "Blood Glucose Fasting\n" +
-                            " Complete Hemogram\n" +
+                            "Complete Hemogram\n" +
                             "HbA1c\n" +
-                            " Iron Studies\n"+
+                            "Iron Studies\n"+
                             "Kidney Function Test" +
                             "LDH Lactate Dehydrogenase, Serum\n" +
                             "Lipid Profile\n" +
                             "Liver Function Test",
-                    "Blood Glucose Fasting ",
+                    "Whte Blood Cell Count (WBC)\n"+
+                            "Red Blood Cell (RBC)\n"+
+                            "Hemoglobin (Hgb)\n"+
+                            "Hemotocrit\n"+
+                            "Mean Corpuscular Volume (MCV)\n"+
+                            "Mean Corpuscular Hemoglobin (MCH)\n"+
+                            "Platelet Count\n",
                     "COVID-19 Antibody - IgG",
                     "Thyroid Profile-Total (T3, T4 & TSH Ultra-sensitive)",
                     "Complete Hemogram\n" +

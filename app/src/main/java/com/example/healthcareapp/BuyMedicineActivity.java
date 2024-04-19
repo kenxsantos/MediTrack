@@ -15,35 +15,26 @@ import java.util.HashMap;
 
 public class BuyMedicineActivity extends AppCompatActivity {
     private String[][] packages = {
-            {"Uprise-D3 1000IU Capsule", "", "", "", "50"},
-            {"HealthVit Chromium Picolinate 200mcg Capsule", "", "", "", "305"},
-            {"Vitamin B Complex Capsule", "", "", "", "448"},
-            {"Inlife Vitamin E Wheat Germ Oil Capsule", "", "", "", "539"},
-            {"Dolo 650 Tablet", "", "", "", "30"},
-            {"Crocin 650 Advance Tablet", "", "", "", "50"},
-            {"Strepsilsd Medicated Lozenges", "", "", "", "40"},
-            {"Tata lmg Calsium + Vitamin D3", "", "", "", "30"},
-            {"Feronia -XT Tablet", "", "", "", "130"},
+            {"Aspirin", "", "", "", "120"},
+            {"Amoxicilin", "", "", "", "190"},
+            {"Metformin", "", "", "", "90"},
+            {"Losartan", "", "", "", "200"},
+            {"Levothyroxine", "", "", "", "320"},
+            {"Paracetamol", "", "", "", "80"},
+            {"Omeprazole", "", "", "", "115"},
+            {"Atorvastatin", "", "", "", "320 "},
     };
     private  String[] package_details = {
-            "Building and keeping the bones & strong teeth\n" +
-                    "Reducing Fatigue/stress and muscular pains\n" +
-                    "Boosting immunity and increasing resistance against infection",
-            "Chromium is an essential trace mineral that plays an important role in helping insulin regulation",
-            "Provides relief from vitamin BB deficiencies\n" +
-                    "Helps in formation of red blood cells" +
-                    "Maintains healthy nervous system",
-            "It promotes health as well as skin benefits.\n" +
-                    "It helps reduce skin blemish and pigmentation.\n" +
-                    "It act as safeguard the skin from the harsh UVA and UVB sun rays.",
-            "Dolo 650 tablet helps relieved pain and fever by blocking the release of certain chemical messenger responsible for fever and pain",
-            "Helps relieve fever and bring down a high temperature\n" +
-                    "Suitable for people with a heart condition or high blood pressure",
-            "Relieves the symptoms of a bacterial throat infection and soothes the recovery process\n" +
-                    "Provides a warm and comforting feeling during sore throat",
-            "Reduces the risk of calcium deficiency, Rickets, and Osteoporosis\n" +
-                    "Promotes mobility and flexibility of joints",
-            "Helps to reduced the iron deficiency dur to chronic blood loss or low in take of iron"
+            "Aspirin, a commonly prescribed medication, is often recommended by physicians for its anti-inflammatory properties. \n" +
+                    "It's frequently used to relieve mild to moderate pain, reduce fever, and prevent blood clotting, especially in patients at risk of cardiovascular diseases, as suggested by cardiologists.",
+            "Amoxicillin is an antibiotic frequently prescribed by pediatricians to treat various bacterial infections in children, ranging from ear infections to urinary tract infections.",
+            "Metformin is a medication commonly prescribed by endocrinologists to manage type 2 diabetes.\n" +
+                    "It works by decreasing glucose production in the liver and improving insulin sensitivity in the body.",
+            "Losartan is an angiotensin II receptor blocker (ARB) medication commonly prescribed by cardiologists to treat high blood pressure (hypertension) and heart failure, reducing the risk of heart attacks and strokes.",
+            "Levothyroxine is a synthetic thyroid hormone frequently prescribed by endocrinologists to treat hypothyroidism, a condition where the thyroid gland does not produce enough hormones, helping regulate metabolism and energy levels.",
+            " Paracetamol, also known as acetaminophen, is a common over-the-counter medication recommended by physicians for its analgesic (pain-relieving) and antipyretic (fever-reducing) properties. ",
+            "Omeprazole is a proton pump inhibitor commonly prescribed by physicians to treat various gastrointestinal conditions such as acid reflux, ulcers, and gastroesophageal reflux disease (GERD).",
+            "Atorvastatin is a statin medication frequently recommended by cardiologists to lower cholesterol levels and reduce the risk of cardiovascular events, such as heart attacks and strokes, by improving heart health."
     };
 
     HashMap<String, String> item;

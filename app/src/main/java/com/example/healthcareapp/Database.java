@@ -54,6 +54,22 @@ public class Database extends SQLiteOpenHelper {
         return result;
     }
 
+    public void updatePassword(String username, String newPassword, String confirmPassword) {
+        if (newPassword.equals(confirmPassword)) {
+            ContentValues contVal = new ContentValues();
+            contVal.put("password", newPassword);
+            SQLiteDatabase db = getWritableDatabase();
+            db.update("users", contVal, "username=?", new String[]{username});
+            db.close();
+        } else {
+            // Handle password mismatch error
+            // For example, you can throw an exception or show an error message
+            // You may also want to log this event for further analysis
+            // This is just a placeholder, replace it with your error handling mechanism
+            System.err.println("Password and confirm password do not match.");
+        }
+    }
+
     public void addToCart(String username, String product, float price, String otype) {
         ContentValues cv = new ContentValues();
         cv.put("username", username);
